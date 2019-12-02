@@ -8,6 +8,6 @@ const foo = () => {
 module.exports.foo = foo;
 
 const bar = () => {
-    return 'beer';
+    return 'beers';
 };
 module.exports.bar = bar;
