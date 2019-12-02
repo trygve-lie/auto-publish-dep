@@ -1,0 +1,30 @@
+{
+  "name": "actions-auto-publish-dep",
+  "version": "1.0.0",
+  "description": "A test setup of automatic publish to npm from github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trygve-lie/auto-publish-dep.git"
+  },
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trygve-lie/auto-publish-dep/issues"
+  },
+  "homepage": "https://github.com/trygve-lie/auto-publish-dep#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "prettier": "^1.19.1",
+    "eslint": "^6.7.1",
+    "tap": "^14.10.2"
+  }
+}
