@@ -1,6 +1,6 @@
 {
   "name": "actions-auto-publish-dep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A test setup of automatic publish to npm from github actions",
   "main": "index.js",
   "scripts": {
