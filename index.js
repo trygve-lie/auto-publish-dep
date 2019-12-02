@@ -11,3 +11,8 @@ const bar = () => {
     return 'beer';
 };
 module.exports.bar = bar;
+
+const hello = () => {
+    return 'Hello';
+};
+module.exports.hello = hello;

@@ -13,3 +13,8 @@ test('Index() - bar', (t) => {
     t.equal(index.bar(), 'beer', '.value should be "beer"');
     t.end();
 });
+
+test('Index() - hello', (t) => {
+    t.equal(index.hello(), 'Hello', '.value should be "Hello"');
+    t.end();
+});
