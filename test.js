@@ -8,7 +8,6 @@ test('Index() - foo', (t) => {
     t.end();
 });
 
-
 test('Index() - bar', (t) => {
     t.equal(index.bar(), 'beer', '.value should be "beer"');
     t.end();
@@ -16,5 +15,10 @@ test('Index() - bar', (t) => {
 
 test('Index() - hello', (t) => {
     t.equal(index.hello(), 'Hello', '.value should be "Hello"');
+    t.end();
+});
+
+test('Index() - world', (t) => {
+    t.equal(index.world(), 'World', '.value should be "World"');
     t.end();
 });

@@ -16,3 +16,8 @@ const hello = () => {
     return 'Hello';
 };
 module.exports.hello = hello;
+
+const world = () => {
+    return 'World';
+};
+module.exports.world = world;
