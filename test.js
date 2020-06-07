@@ -14,7 +14,7 @@ test('Index() - bar', (t) => {
 });
 
 test('Index() - hello', (t) => {
-    t.equal(index.hello(), 'Hello', '.value should be "Hello"');
+    t.equal(index.hello(), 'Hola', '.value should be "Hola"');
     t.end();
 });
 

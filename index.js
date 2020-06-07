@@ -13,7 +13,7 @@ const bar = () => {
 module.exports.bar = bar;
 
 const hello = () => {
-    return 'Hello';
+    return 'Hola';
 };
 module.exports.hello = hello;
 
